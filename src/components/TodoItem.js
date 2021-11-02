@@ -1,8 +1,19 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-function TodoItem(props) {
-  return <li>{props.todo.title}</li>;
+class TodoItem extends React.Component {
+  render() {
+    return (
+      <li>
+        <input
+          type="checkbox"
+          checked={this.props.todo.completed}
+          onChange={() => console.log('clicked')}
+        />
+        {this.props.todo.title}
+      </li>
+    );
+  }
 }
 
 export default TodoItem;
