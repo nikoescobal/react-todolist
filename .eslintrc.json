@@ -20,7 +20,14 @@
     }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "react/prefer-stateless-function": 0,
+    "react/state-in-constructor": "off",
+    "react/no-unused-state": "off",
+    "react/destructuring-assignment": 0,
+    "react/jsx-key": "off",
+    "no-unused-expressions": "off",
+    "no-unused-vars": "off"
   },
   "ignorePatterns": [
     "dist/",
