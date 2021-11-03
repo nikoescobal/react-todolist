@@ -1,8 +1,12 @@
+/* eslint-disable import/extensions */
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 // component file
 import TodoContainer from './components/TodoContainer';
+
+// stylesheet
+import './App.css';
 
 ReactDOM.render(
   <React.StrictMode>
